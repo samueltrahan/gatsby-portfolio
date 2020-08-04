@@ -1,0 +1,26 @@
+.cardcontainer {
+  display: grid;
+  justify-content: center;
+  grid-gap: 10px;
+  main {
+      border: 2px white solid;
+      border-radius: 5px;
+      width: 300px !important;
+  }
+}
+
+.strong {
+  font-weight: 800px;
+}
+
+@media (min-width:800px) {
+  .cardcontainer {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:1000px) {
+  .cardcontainer {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}

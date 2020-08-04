@@ -1,3 +1,19 @@
+.portfolio {
+  background: url(https://i.imgur.com/Xf5oMyC.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -630,6 +646,22 @@ pre tt:after {
   }
   a:hover {
    color: red;
+  }
+}
+
+.my-projects {
+  text-align: center;
+}
+
+.contact {
+  color: #808080;
+  a {
+  list-style: none;
+  text-decoration: none;
+  color: #808080
+  }
+  a:hover {
+    color: red;
   }
 }
 
