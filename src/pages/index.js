@@ -1,15 +1,23 @@
 import React from "react"
-
-import { Link } from 'gatsby'
-import Layout from '../components/Layouts'
+import Layout from "../components/Layouts"
+import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
+import NameDisplay from "../components/NameDisplay/namedisplay"
 
 export default function Home() {
   return (
-  <Layout>
-    <h2>Hi there!</h2>
-    <p>I'm Samuel, a Austin-based software engineer</p>
-    <Link to="/contact">Contact Me</Link><br/>
-    <Link to='/about'>About Me</Link>
-  </Layout>
+    <>
+      <Helmet>
+        <title>Samuel Trahan</title>
+      </Helmet>
+      <Layout>
+        <NameDisplay />
+
+      <br />
+      <div className="about-me">
+      <Link to='/about'>About Me</Link>
+      </div>
+      </Layout>
+    </>
   )
 }
