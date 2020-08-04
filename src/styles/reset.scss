@@ -5,12 +5,13 @@
   -o-background-size: cover;
   background-size: cover;
 }
-img {
+.image {
   width: 350px;
   border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+}
+.header-content {
+  display: flex;
+  justify-content: center;
 }
 
 html {
@@ -224,17 +225,17 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
-img {
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
+// img {
+//   max-width: 100%;
+//   // margin-left: 0;
+//   // margin-right: 0;
+//   // margin-top: 0;
+//   // padding-bottom: 0;
+//   // padding-left: 0;
+//   // padding-right: 0;
+//   // padding-top: 0;
+//   margin-bottom: 1.45rem;
+// }
 h1 {
   margin-left: 0;
   margin-right: 0;

@@ -13,8 +13,16 @@ export default function Home() {
           <title>Samuel Trahan</title>
         </Helmet>
         <Layout>
-          <img src="https://i.imgur.com/LO312Wk.jpg" alt="samuel" />
+          <div className="header-content">
+            <img
+              className="image"
+              src="https://i.imgur.com/LO312Wk.jpg"
+              alt="samuel"
+            />
+          </div>
+          <div className="header-content">
           <NameDisplay />
+          </div>
           <br />
           <div className="about-me">
             <Link to="/about">Learn More About Me</Link>
